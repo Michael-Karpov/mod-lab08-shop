@@ -2,7 +2,7 @@
 #include <gtest/gtest.h>
 #include "../include/task.h"
 
-TEST(task1, test1) {
+TEST(TEST1, test1) {
 	Shop shop(3, 10, 10);
 	shop.Start();
 	shop.Stop();
@@ -10,7 +10,7 @@ TEST(task1, test1) {
 	EXPECT_EQ(113, result);
 }
 
-TEST(task2, test2) {
+TEST(TEST2, test2) {
 	Shop shop(4, 10, 20);
 	shop.Start();
 	shop.Stop();
@@ -18,7 +18,7 @@ TEST(task2, test2) {
 	EXPECT_EQ(81, result);
 }
 
-TEST(task3, test3) {
+TEST(TEST3, test3) {
 	Shop shop(1, 4, 100);
 	shop.Start();
 	shop.Stop();
