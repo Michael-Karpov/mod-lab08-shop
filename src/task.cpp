@@ -108,8 +108,6 @@ void Shop::Shopping() {
             m.unlock();
         } else {
             rejectedClients++;
-            std::cout << "Klient nomer " << clients.at(countClients).id << " ne obsluzhen" << std::endl;
-
             m.unlock();
         }
         countClients++;
