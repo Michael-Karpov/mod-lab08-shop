@@ -7,7 +7,7 @@ TEST(task1, test1) {
 	Shop shop(1, 10, 100, 1, 1);
 	shop.Shopping();
 	int result = shop.servedClients;
-	EXPECT_EQ(10, result);
+	EXPECT_EQ(9, result);
 }
 
 TEST(task2, test2) {
